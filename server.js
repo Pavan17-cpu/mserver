@@ -16,7 +16,7 @@ const validVerificationCode = '';
 
 
 // MongoDB connection
-mongoose.connect('mongodb+srv://pavan:pavan@cluster0.idbadvj.mongodb.net/', {
+mongoose.connect('mongodb+srv://pavan:@cluster0.idbadvj.mongodb.net/', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 }).then(() => console.log('MongoDB connected'))
