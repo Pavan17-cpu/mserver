@@ -11,12 +11,12 @@ const port = 8000;
 
 app.use(bodyParser.json());
 app.use(cors());
-const validVerificationCode = '0516';
+const validVerificationCode = '';
 
 
 
 // MongoDB connection
-mongoose.connect('mongodb+srv://pavan:pavan@cluster0.idbadvj.mongodb.net/media', {
+mongoose.connect('mongodb+srv://pavan:pavan@cluster0.idbadvj.mongodb.net/', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 }).then(() => console.log('MongoDB connected'))
